@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Control de Aforo</title>
+	<link rel="stylesheet" href="{{url_for('static',filename='CSS/camara.css')}}">
+  </head>
+  <body>
+	<header>
+
+		<div class="text">
+				<div class="logo">
+					<p><a><img src="/static/imagen/Logo Ists.jpg" alt="Sucre"></a></p>
+				</div>
+	   
+			   <div class="logo2">
+				   <p><img src="/static/imagen/electronica.jpg" alt="Superior"></p>
+			   </div>
+				   <h1>CAMILE</h1>
+				   <h3>Control Aforo Mediante Internet Laboratorios Electrónica</h3>
+		
+		</div>
+    </header>
+		
+		<nav>
+			<ul>
+				<li>
+					<a href="/">
+						Inicio
+					</a>
+				</li>
+		    </ul>
+		</nav>		
+        
+        <div class="videos">
+			<h1>VIDEOS CAPTURAS </h1>
+			<br>
+		    <div class="cam1">
+			<p><img src="{{ url_for('video_feed') }}"></p>
+		    </div>
+       
+		    <div class="cam2">
+            <p><img src="{{ url_for('video_feed1') }}"></p>
+	      	</div>
+		
+		    <div class="cam3">
+			<p><img src="{{ url_for('video_feed2') }}"></p>
+		    </div>
+		
+	    </div>
+    
+</body>
+</html>

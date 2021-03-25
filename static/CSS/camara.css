@@ -1,0 +1,99 @@
+*{
+	margin:0px;
+	padding: 0px;
+
+}
+
+body{
+	background: rgb(209, 55, 55);
+	font-family: Arial;
+}
+
+#container{
+	/*width:80%;*/
+	width:1100px; 
+	margin:0px auto;
+	border:1px solid rgb(13, 116, 201) ;
+
+}
+
+.text{
+	background: blue;
+	height: 180px;
+	width:1100px;
+	margin:auto ;
+/*border-bottom: 2px dashed black;*/
+    color: rgb(137, 137, 155);
+
+	
+}
+
+
+	
+.logo p a img{
+    height:120px;
+	width:220px;
+
+}
+
+
+.logo{
+    background: blue;
+    float:left; 
+    height:120px;
+	width:200px;
+	padding-top:30px;
+	
+   
+}
+.logo2 p  img{
+    height: 120px;
+	width:220px;
+
+
+}
+
+
+.logo2{
+    background: blue;
+    float:right; 
+    height:100px;
+	width:150px;
+	padding-top:30px;
+    padding-right: 71px;
+}
+
+
+h1{
+	/*display: inline;
+	/*padding-left: 105px;*/
+	text-align: center;
+	line-height: 100px;
+	
+    font-size: 80px;
+	
+}
+h3{
+	
+	padding-top: 0px;
+	padding-left:0px;
+	font-size: 20px;
+	text-align: center;
+	font-family: "Latin Modern Roman 10";
+    font-style: italic;
+}
+
+
+nav{
+	background: lightblue;
+	height: 50px;
+	border: 1px solid black;
+}
+
+nav ul li{
+	float:left;
+	list-style: none;
+	margin:10px;
+	line-height: 25px;
+
+}
